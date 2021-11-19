@@ -1,0 +1,7 @@
+C:\Users\Владелец\source\repos\DLA\DLA\bin\Debug\DLA.exe.config
+C:\Users\Владелец\source\repos\DLA\DLA\bin\Debug\DLA.exe
+C:\Users\Владелец\source\repos\DLA\DLA\bin\Debug\DLA.pdb
+C:\Users\Владелец\source\repos\DLA\DLA\obj\Debug\DLA.csprojAssemblyReference.cache
+C:\Users\Владелец\source\repos\DLA\DLA\obj\Debug\DLA.csproj.CoreCompileInputs.cache
+C:\Users\Владелец\source\repos\DLA\DLA\obj\Debug\DLA.exe
+C:\Users\Владелец\source\repos\DLA\DLA\obj\Debug\DLA.pdb
