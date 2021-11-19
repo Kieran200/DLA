@@ -20,7 +20,17 @@ namespace DLA
             _y = y;
             _field[_x, _y] = Type;
         }
-        public void Move(int direction, int[,] field, int N, int M)
+
+        public void NewCord(out int[,] field)
+        {
+            _field[_x, _y] = 0;
+            _x +=1;
+            _y +=1;
+            _field[_x, _y] = Type;
+            field = _field;
+        }
+
+            public void Move(int direction, int[,] field, int N, int M)
         {
             _field[_x, _y] = 0;
             switch (direction)
