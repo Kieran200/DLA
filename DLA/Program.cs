@@ -6,18 +6,19 @@ using System.Threading.Tasks;
 
 namespace DLA
 {
+    //Поле некорректно расширяется - появляются промежутки между ячейками
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            int stop;
+            int stop=0;//Вроде, не должно ломаться
             int number = 0;
             Random rnd = new Random();
-            int N = 6;
+            int N = 6; 
             int M = 6;
             Random random = new Random();
             List<Cell> cList = new List<Cell>();
-            int[,] field = new int[N + 100, M + 100];
+            int[,] field = new int[N + 100, M + 100];//Почему 100?))
 
             while (true)
             {
@@ -27,18 +28,21 @@ namespace DLA
                     cList.Add(cell);
                     number++;
                 }
-                int x = 0;
-            S: x = rnd.Next(1, N);
+                //Учитесь писать без указателей)
+                int x = 0; 
                 int y = 0;
-                y = rnd.Next(1, M);
+                do
+                {
+                    x = rnd.Next(1, N);
+                    y = rnd.Next(1, M);
+                } while (field[x, y] != 0); 
                 DrawField();
                 if (field[x, y] == 0)
                 {
                     Cell cell = new Cell(field, x, y);
                     cList.Add(cell);
-                }
-                else goto S;
-                while (true)
+                }                
+                while (stop <=0)
                 {
                     cList[number].Move(rnd.Next(0, 4), field, N, M);
                     DrawField();
@@ -54,9 +58,7 @@ namespace DLA
                 Central();
             }
 
-
-
-            void Central()                           //централизация кристалла после увеличения поля
+            void Central()  //централизация кристалла после увеличения поля
             {
                 N += 2;
                 M += 2;
@@ -78,7 +80,7 @@ namespace DLA
                         Console.Write(field[i, j]);
                         Console.ResetColor();
                     }
-                    Console.WriteLine("");
+                    Console.WriteLine();//Можно просто пустые скобки оставить
                 }
             }
         }
