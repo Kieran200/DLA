@@ -5,3 +5,10 @@ C:\Users\Владелец\source\repos\DLA\DLA\obj\Debug\DLA.csprojAssemblyRefer
 C:\Users\Владелец\source\repos\DLA\DLA\obj\Debug\DLA.csproj.CoreCompileInputs.cache
 C:\Users\Владелец\source\repos\DLA\DLA\obj\Debug\DLA.exe
 C:\Users\Владелец\source\repos\DLA\DLA\obj\Debug\DLA.pdb
+E:\Projects\Repos\Common\DLA-1\DLA\bin\Debug\DLA.exe.config
+E:\Projects\Repos\Common\DLA-1\DLA\bin\Debug\DLA.exe
+E:\Projects\Repos\Common\DLA-1\DLA\bin\Debug\DLA.pdb
+E:\Projects\Repos\Common\DLA-1\DLA\obj\Debug\DLA.csproj.AssemblyReference.cache
+E:\Projects\Repos\Common\DLA-1\DLA\obj\Debug\DLA.csproj.CoreCompileInputs.cache
+E:\Projects\Repos\Common\DLA-1\DLA\obj\Debug\DLA.exe
+E:\Projects\Repos\Common\DLA-1\DLA\obj\Debug\DLA.pdb
